@@ -11,10 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/about', function () {
-    return view('about');
-});
+// // testing how to make another routes/url facades create korlam
+// Route::get('/about', function () {
+//     return view('about');
+// });
+
+Route::get('/','homeController@index');
