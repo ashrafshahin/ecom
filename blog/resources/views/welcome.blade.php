@@ -43,7 +43,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active">                                            <a href="#">Home<span class="sr-only">(current)</span></a></li>
+        <li class="active">                                           
+       <a href="#">Home<span class="sr-only">(current)</span></a></li>
+<!-- this line is for adding new products -link ta dete hobe "localhost:8000/products" deso -->
+       <li><a href="{{('products')}}">Add Products</a></li>
         <li><a href="#">Pages</a></li>
         <li><a href="#">Portfolio</a></li>
           <li><a href="#">Blog</a></li>

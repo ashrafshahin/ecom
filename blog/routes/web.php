@@ -21,3 +21,7 @@
 // });
 
 Route::get('/','homeController@index');
+// add product korar jonno link up-- 
+Route::get('/products','productController@products');
+// upload ar jonno roure delam
+Route::post('/upload','productController@dataupload');
